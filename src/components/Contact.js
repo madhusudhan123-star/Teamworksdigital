@@ -41,7 +41,7 @@ const ContactUs = () => {
                                 <MapPin className="w-6 h-6 text-blue-600 mt-1" />
                                 <div>
                                     <h3 className="font-semibold text-gray-800">Our Location</h3>
-                                    <p className="text-gray-600">123 Business Avenue, Technology Park, Suite 101</p>
+                                    <p className="text-gray-600">3rd Floor, Godha Horizon, Kavuri Hills, Madhapur, Hyderabad, Telangana 500081.</p>
                                 </div>
                             </div>
 
@@ -49,7 +49,7 @@ const ContactUs = () => {
                                 <Phone className="w-6 h-6 text-blue-600 mt-1" />
                                 <div>
                                     <h3 className="font-semibold text-gray-800">Phone</h3>
-                                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                                    <p className="text-gray-600">+91 9848079696</p>
                                 </div>
                             </div>
 
@@ -57,7 +57,7 @@ const ContactUs = () => {
                                 <Mail className="w-6 h-6 text-blue-600 mt-1" />
                                 <div>
                                     <h3 className="font-semibold text-gray-800">Email</h3>
-                                    <p className="text-gray-600">info@yourcompany.com</p>
+                                    <p className="text-gray-600">info@eteamworks.com</p>
                                 </div>
                             </div>
 

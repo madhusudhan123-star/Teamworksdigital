@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 
 const Footer = () => {
     return (
-        <footer className="relative">
+        <footer className="relative z-10">
             {/* Background Video */}
             <div className="absolute inset-0 w-full h-full overflow-hidden z-0">
                 <video
@@ -33,16 +33,16 @@ const Footer = () => {
                             Creating innovative solutions through teamwork and creativity.
                         </p>
                         <div className="flex space-x-4">
-                            <a href="#" className="hover:text-yellow-400 transition-colors">
+                            <a href="https://www.facebook.com/Teamworkscreative" className="hover:text-yellow-400 transition-colors">
                                 <Facebook size={20} />
                             </a>
-                            <a href="#" className="hover:text-yellow-400 transition-colors">
+                            <a href="https://x.com/Teamworks123" className="hover:text-yellow-400 transition-colors">
                                 <Twitter size={20} />
                             </a>
-                            <a href="#" className="hover:text-yellow-400 transition-colors">
+                            <a href="https://www.instagram.com/teamworks_creative_solutions/" className="hover:text-yellow-400 transition-colors">
                                 <Instagram size={20} />
                             </a>
-                            <a href="#" className="hover:text-yellow-400 transition-colors">
+                            <a href="https://www.linkedin.com/company/teamworks-creative-solutions/?viewAsMember=true" className="hover:text-yellow-400 transition-colors">
                                 <Linkedin size={20} />
                             </a>
                         </div>
@@ -55,7 +55,7 @@ const Footer = () => {
                             <li><a href="#home" className="hover:text-yellow-400 transition-colors">HOME</a></li>
                             <li><a href="#Aboutus" className="hover:text-yellow-400 transition-colors">ABOUT US</a></li>
                             <li><a href="#whatwedo" className="hover:text-yellow-400 transition-colors">WHAT WE DO</a></li>
-                            <li><a href="/our-portfolio" className="hover:text-yellow-400 transition-colors">OUR PORTFOLIO</a></li>
+                            {/* <li><a href="/our-portfolio" className="hover:text-yellow-400 transition-colors">OUR PORTFOLIO</a></li> */}
                             <li><a href="#clientele" className="hover:text-yellow-400 transition-colors">CLIENTELE</a></li>
                         </ul>
                     </div>
@@ -78,15 +78,15 @@ const Footer = () => {
                         <ul className="space-y-4">
                             <li className="flex items-center space-x-3">
                                 <MapPin size={20} className="text-yellow-400" />
-                                <span className="text-sm">Your Address Here</span>
+                                <span className="text-sm">3rd Floor, Godha Horizon, Kavuri Hills, Madhapur, Hyderabad, Telangana 500081.</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <Phone size={20} className="text-yellow-400" />
-                                <span className="text-sm">+1 234 567 8900</span>
+                                <span className="text-sm">+91 9848079696</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <Mail size={20} className="text-yellow-400" />
-                                <span className="text-sm">info@teamwork.com</span>
+                                <span className="text-sm">info@eteamworks.com</span>
                             </li>
                         </ul>
                     </div>

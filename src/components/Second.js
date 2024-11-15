@@ -112,7 +112,7 @@ const Second = () => {
             <div className="flex flex-col lg:flex-row lg:space-x-8">
                 {/* Left Section */}
                 <div className="lg:w-3/5 mb-8 lg:mb-0 lg:p-10">
-                    <h1 className="text-3xl font-bold text-gray-800 mb-4">Teamwork Creative Solutions</h1>
+                    <h1 className="text-3xl font-bold text-gray-800 mb-4">Teamworks Creative Solutions</h1>
                     <p className="text-gray-600 leading-relaxed text-xl">
                         With two decades of expertise, our company stands as a leader in the industry. Over the past 20 years, we have honed our skills and knowledge, delivering exceptional service and innovative solutions to our clients. Our experience spans various sectors like Infrastructure, Pharma, Real Estate, Education, Hospitality, Healthcare, and Information Technology. We've built a reputation for reliability, excellence, and a deep commitment to customer satisfaction.
                         <br /><br />

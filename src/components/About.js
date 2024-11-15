@@ -5,12 +5,12 @@ const TestimonialsSection = () => {
         {
             id: 1,
             quote: "We convey your brand promise to the audience on an emotional level, bringing your dreams to life and leaving a lasting impression.Transforming  your narrative that resonates with your audience, making them an indispensable tool in your marketing arsenal.Get an ultimate communication tool for selling the unbuilt, transforming concepts into tangible experiences through stunning, captivating visuals.",
-            title: "Team Works Creative",
+            title: "TeamWorks Creative",
         },
         {
             id: 2,
             quote: " We offer a wide range of corporate video production services tailored to meet your specific video requirements. Two decades of experience in video production ,we seamlessly integrate high-quality professional videos into your marketing strategy. Going beyond expectations, we provide comprehensive services including video production, editing, and creative marketing strategies.",
-            title: " Team Works Production House",
+            title: " TeamWorks Production House",
         },
         {
             id: 3,
@@ -20,7 +20,7 @@ const TestimonialsSection = () => {
     ];
 
     return (
-        <section id="Aboutus" className="py-16 bg-black text-white">
+        <section id="Aboutus" className="py-16 bg-black text-white relative z-10">
             <div className="container mx-auto px-4">
                 <h2 className="text-4xl font-bold text-center mb-12 relative">
                     ABOUT US

@@ -50,7 +50,7 @@ const ClientsSection = () => {
     }, [clients.length]);
 
     return (
-        <div id="clientele" className="w-full py-16 bg-black text-white">
+        <div id="clientele" className="w-full py-16 bg-black text-white relative z-10 ">
             <div className="max-w-7xl mx-auto px-4">
                 <h2 className="text-3xl font-bold text-center text-white mb-12">
                     Our Clients

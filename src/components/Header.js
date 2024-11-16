@@ -3,97 +3,6 @@ import { Menu, Search, X, MessageCircle } from 'lucide-react';
 import logo from '../assets/logo.png';
 import { Volume2, VolumeX } from 'lucide-react';
 
-// const VideoBackground = () => {
-//     const [player, setPlayer] = useState(null);
-//     const [isMuted, setIsMuted] = useState(true);
-//     const videoId = 'K6PBFU6TxTM';
-
-//     useEffect(() => {
-//         // Load YouTube IFrame API
-//         const tag = document.createElement('script');
-//         tag.src = 'https://www.youtube.com/iframe_api';
-//         const firstScriptTag = document.getElementsByTagName('script')[0];
-//         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-//         // Initialize YouTube player when API is ready
-//         window.onYouTubeIframeAPIReady = () => {
-//             const newPlayer = new window.YT.Player('youtube-background', {
-//                 videoId: videoId,
-//                 playerVars: {
-//                     autoplay: 1,
-//                     controls: 0,
-//                     disablekb: 1,
-//                     enablejsapi: 1,
-//                     loop: 1,
-//                     mute: 1,
-//                     playlist: videoId,
-//                     playsinline: 1,
-//                     rel: 0,
-//                     showinfo: 0
-//                 },
-//                 events: {
-//                     onReady: (event) => {
-//                         setPlayer(event.target);
-//                         event.target.playVideo();
-//                     }
-//                 }
-//             });
-//         };
-//     }, []);
-
-//     const toggleMute = () => {
-//         if (player) {
-//             if (isMuted) {
-//                 player.unMute();
-//                 player.setVolume(100);
-//             } else {
-//                 player.mute();
-//             }
-//             setIsMuted(!isMuted);
-//         }
-//     };
-
-//     return (
-//         <div className="absolute inset-0 w-full h-full overflow-hidden -z-10">
-//             {/* YouTube player container */}
-//             <div className="relative w-full h-full">
-//                 <div
-//                     id="youtube-background"
-//                     className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-//                     style={{
-//                         width: '100%',
-//                         height: '100%',
-//                         minWidth: '100%',
-//                         minHeight: '100%',
-//                         '@media (max-aspect-ratio: 16/9)': {
-//                             width: '100vw',
-//                             height: 'calc(100vw * 9/16)',
-//                         },
-//                         '@media (min-aspect-ratio: 16/9)': {
-//                             width: 'calc(100vh * 16/9)',
-//                             height: '100vh',
-//                         }
-//                     }}
-//                 />
-//             </div>
-//             {/* Overlay */}
-//             <div className="absolute inset-0 bg-black/50" />
-
-//             {/* Mute/Unmute Button */}
-//             <button
-//                 onClick={toggleMute}
-//                 className="absolute bottom-6 left-6 bg-white/20 hover:bg-white/30 p-3 rounded-full transition-colors z-20"
-//                 aria-label={isMuted ? "Unmute video" : "Mute video"}
-//             >
-//                 {isMuted ? (
-//                     <VolumeX className="w-6 h-6 text-white" />
-//                 ) : (
-//                     <Volume2 className="w-6 h-6 text-white" />
-//                 )}
-//             </button>
-//         </div>
-//     );
-// };
 
 
 
@@ -152,7 +61,7 @@ const ChatWidget = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const handleStartChat = () => {
-        window.open('https://wa.me/6309792221', '_blank');
+        window.open('https://wa.me/9848079696', 'TeamWorks');
         setIsOpen(false);
     };
 
@@ -292,7 +201,7 @@ const Header = () => {
 
             <div className="text-center px-4">
                 <h1 className="text-4xl md:text-6xl mb-80 font-bold mb-4">
-                    <a className='text-[#F6CF02]'>Teamworks Creative Solution</a>
+                    <a className='text-[#F6CF02]'>Teamworks Creative Solutions</a>
                 </h1>
 
                 {/* Mute/Unmute Button */}
@@ -322,6 +231,97 @@ const Header = () => {
 
 export default Header;
 
+// const VideoBackground = () => {
+//     const [player, setPlayer] = useState(null);
+//     const [isMuted, setIsMuted] = useState(true);
+//     const videoId = 'K6PBFU6TxTM';
+
+//     useEffect(() => {
+//         // Load YouTube IFrame API
+//         const tag = document.createElement('script');
+//         tag.src = 'https://www.youtube.com/iframe_api';
+//         const firstScriptTag = document.getElementsByTagName('script')[0];
+//         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+//         // Initialize YouTube player when API is ready
+//         window.onYouTubeIframeAPIReady = () => {
+//             const newPlayer = new window.YT.Player('youtube-background', {
+//                 videoId: videoId,
+//                 playerVars: {
+//                     autoplay: 1,
+//                     controls: 0,
+//                     disablekb: 1,
+//                     enablejsapi: 1,
+//                     loop: 1,
+//                     mute: 1,
+//                     playlist: videoId,
+//                     playsinline: 1,
+//                     rel: 0,
+//                     showinfo: 0
+//                 },
+//                 events: {
+//                     onReady: (event) => {
+//                         setPlayer(event.target);
+//                         event.target.playVideo();
+//                     }
+//                 }
+//             });
+//         };
+//     }, []);
+
+//     const toggleMute = () => {
+//         if (player) {
+//             if (isMuted) {
+//                 player.unMute();
+//                 player.setVolume(100);
+//             } else {
+//                 player.mute();
+//             }
+//             setIsMuted(!isMuted);
+//         }
+//     };
+
+//     return (
+//         <div className="absolute inset-0 w-full h-full overflow-hidden -z-10">
+//             {/* YouTube player container */}
+//             <div className="relative w-full h-full">
+//                 <div
+//                     id="youtube-background"
+//                     className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+//                     style={{
+//                         width: '100%',
+//                         height: '100%',
+//                         minWidth: '100%',
+//                         minHeight: '100%',
+//                         '@media (max-aspect-ratio: 16/9)': {
+//                             width: '100vw',
+//                             height: 'calc(100vw * 9/16)',
+//                         },
+//                         '@media (min-aspect-ratio: 16/9)': {
+//                             width: 'calc(100vh * 16/9)',
+//                             height: '100vh',
+//                         }
+//                     }}
+//                 />
+//             </div>
+//             {/* Overlay */}
+//             <div className="absolute inset-0 bg-black/50" />
+
+//             {/* Mute/Unmute Button */}
+//             <button
+//                 onClick={toggleMute}
+//                 className="absolute bottom-6 left-6 bg-white/20 hover:bg-white/30 p-3 rounded-full transition-colors z-20"
+//                 aria-label={isMuted ? "Unmute video" : "Mute video"}
+//             >
+//                 {isMuted ? (
+//                     <VolumeX className="w-6 h-6 text-white" />
+//                 ) : (
+//                     <Volume2 className="w-6 h-6 text-white" />
+//                 )}
+//             </button>
+//         </div>
+//     );
+// };
 // const Header = () => {
 //     return (
 //         <div id="home" className="relative min-h-screen flex items-center justify-center text-white">
